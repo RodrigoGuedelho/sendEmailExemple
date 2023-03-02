@@ -35,3 +35,26 @@ mvn clean install
 ```bash
 ./mvnw spring-boot:run
 ```
+
+### Procedimentos de execução com docker
+
+
+
+Para gerar o build da aplicação:
+
+```bash
+mvn clean install
+```
+
+
+
+Após o build, para iniciar o contâiner, execute:
+
+```bash
+docker-compose build 
+```
+
+Para iniciar o contâiner em modo background, execute:
+
+```
+docker-compose up -d 
